@@ -1,13 +1,13 @@
 import { FizzBuzz } from "../src/FizzBuzz"
 
 describe("FizzBuzz", () => {
-    it("数字の1を入力すると文字列の1が返ってくる", () => {
+    it("returns the string '1' when the number 1 is input", () => {
         const fizzBuzz = new FizzBuzz()
     })
 
-    it("数字の3の倍数を入力すると文字列のFizzが返ってくる", () => {})
+    it("returns the string 'Fizz' when a multiple of 3 is input", () => {})
 
-    it("数字の5の倍数を入力すると文字列のBuzzが返ってくる", () => {})
+    it("returns the string 'Buzz' when a multiple of 5 is input", () => {})
 
-    it("数字の3と5の倍数を入力すると文字列のFizzBuzzが返ってくる", () => {})
+    it("returns the string 'FizzBuzz' when a multiple of both 3 and 5 is input", () => {})
 })
