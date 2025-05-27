@@ -1,1 +1,3 @@
-export class FizzBuzz {}
+export class FizzBuzz {
+    getFizzBuzz(input: number) {}
+}
