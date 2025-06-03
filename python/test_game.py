@@ -8,8 +8,7 @@ class TestFizzBuzz(unittest.TestCase):
         result = fizz_buzz.play(1)
         self.assertEqual(result, '1')
 
-
-    def test_3の倍数でFizzを返す(self):        
+    def test_入力2で2を返す(self):
         print('nothing yet')
 
 
